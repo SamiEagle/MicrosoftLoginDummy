@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Calibri;
+}
+.container{
+    position: relative;
+    top: 15vh;
+    margin: 0 auto;
+    box-shadow: 0px 0px 100px black;
+    height: 60vh;
+    width: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    width: 60vh;
+}
+#logo{
+    max-width:60vh ;
+    max-height:15vh ;
+}
+label{
+    position: relative;
+    font-size: 19px;
+    font-weight: 550;
+    text-align: center;
+    left: -15.5vh;
+}
+#username, #password{
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    left: 8px;
+    width: 400px;
+    height: 40px;
+    outline: 0;
+    margin: 35px auto;
+    margin-top: 15px;
+    background-color: rgb(247, 247, 247);
+    border-style: none none solid none;
+}
+#username:hover, #password:hover{
+    border: 2px solid rgb(0, 0, 145);
+    border-style: none none solid none;
+}
+a{
+    text-align: center;
+    position: relative;
+    top: -15px;
+    left: -16vh;
+    text-decoration: none;
+    color:#0067b8;
+}
+#special{
+    position: relative;
+    top: 0px;
+    left: -7.3vh;
+}
+button{
+    min-width: 108px;
+    min-width: 160px;
+    height: 50px;
+    color: white;
+    background-color: #0067b8;
+    border: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.buttons{
+    position: relative;
+    top: 35px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
