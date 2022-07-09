@@ -39,7 +39,7 @@ label{
     left: -15.5vh;
 }
 #username, #password{
-    font-size: 15px;
+    font-size: 19px;
     text-align: justify;
     position: relative;
     left: 8px;
@@ -50,6 +50,7 @@ label{
     margin-top: 15px;
     background-color: rgb(247, 247, 247);
     border-style: none none solid none;
+    transition: 100ms ease-in-out;
 }
 #username:hover, #password:hover{
     border: 2px solid rgb(0, 0, 145);
